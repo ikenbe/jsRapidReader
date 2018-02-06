@@ -3,7 +3,7 @@ var $ = document.querySelectorAll.bind(document),
     $ID = document.getElementById.bind(document),
     $newEle = document.createElement.bind(document);
 var cardId = 1;
-var b64 = require("./base64");
+//var b64 = require("./base64");
 
 function app() {
     // Variables

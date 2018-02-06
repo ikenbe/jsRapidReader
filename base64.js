@@ -9,7 +9,7 @@ function b64(str) {
         if (t.length < 8) t = fill.slice(0, 8 - t.length).concat(t);
         bin += t;
     }
-    console.log(bin);
+    //console.log(bin);
     bin.length % 24 ? posfix = posfix.slice(0, Math.floor((24 - bin.length % 24) / 6)) : posfix = "";
     if (bin.length % 6) bin += fill.slice(0, 6 - bin.length % 6);
     while (bin.length >= 6) {
